@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Fourteenth Assignment</title>
+</head>
+<body>
+     <h1>Fourteenth Assignment</h1>
+     <h3>This Assignment tells about forms</h3>
+     <form action="https://www.sjcknl.edu.in/" method="get" target="_self">
+        <b> Enter your name :     </b><input type="text" size="40" name="Username"  required placeholder="Enter your name"/> <br/><br/>
+        <b> Enter your password : </b><input type="password" required placeholder="Enter password" /><br/><br/>
+        <b>Enter your email id :  </b><input type="email" required placeholder="Enter your mail id"/><br/><br/>
+        <b>  Enter your contact number : </b><input type="number" required placeholder="Enter your mobile number"/><br/><br/>      <b> Enter your date of birth : </b><input type="date" name="DOB" required placeholder="Enter your date of birth"/><br/><br/>
+        <b>Select your hobbies (You can select more than one)  </b><br/><br/>
+            <input type="checkbox" name="Hobbies" />Singing<br/>
+            <input type="checkbox" name="Hobbies" />Reading<br/>
+            <input type="checkbox" name="Hobbies" />Dancing<br/>
+            <input type="checkbox" name="Hobbies" />Cooking<br/>
+            <input type="checkbox" name="Hobbies" />Painting<br/>
+            <input type="checkbox" name="Hobbies" />Sleeping<br/> <br/>
+        <b>Select your Gender </b> <br/><br/>
+            <input type="radio" name="gender" required/>Male<br/> <input type="radio" name="gender" required/>Female<br/><br/>
+        <b>Select your Course  </b><br/><br/>
+                <select name="Course" required>
+                <option value="m1"> --Select--</option>  <option value="m1"> MSCs</option>
+                <option value="m2"> MPCs</option>  <option value="m3"> MECs</option>
+                <option value="m4"> MPC</option>   <option value="m5"> BCOM</option>
+                <option value="m6"> BBA</option>   <option value="m7"> BZC</option> 
+                </select>  <br/><br/>
+                <b>Upload your photo</b> <input type="file" required/> <br/><br/><b>Upload your signature</b> <input type="file" required/>
+            <br/><br/>            
+            <input type="submit" value="Register"/>
+            <input type="reset" value="Clear"/>
+        </form>
+</body>
+</html>
